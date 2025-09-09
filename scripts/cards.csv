@@ -5,9 +5,9 @@ Low,2,Bake,Simple Buttercream,2 Butter + 1 Sugar,1 Butter or Sugar,5,Butter; Sug
 Mid,3,Bake,Double Layer Delight,2 Sugar + 2 Flour + 1 Chocolate,1 Sugar,8,Sugar; Flour; Chocolate,
 Mid,2,Bake,Fudge Fantasy,3 Chocolate + 1 Butter,1 Chocolate,7,Chocolate; Butter,
 Mid,2,Bake,Berry Bliss,2 Flour + 2 Sugar + 1 Butter,1 Flour,8,Flour; Sugar; Butter,
-High,3,Bake,Royal Velvet,3 Flour + 2 Sugar + 2 Butter,"discard: 1 Butter<br>return: 1 Flour",12,Flour; Sugar; Butter,
-High,2,Bake,Choco Volcano,4 Chocolate + 2 Butter + 1 Sugar,"discard: 1 Chocolate<br>return: 1 Sugar",12,Chocolate; Butter; Sugar,
-High,0,Bake,Caramel Crown,2 Flour + 3 Sugar + 1 Butter,"discard: 1 Sugar<br>return: 1 Flour",10,Flour; Sugar; Butter,
+High,3,Bake,Royal Velvet,3 Flour + 2 Sugar + 2 Butter,"discard: 1 Butter + 1 Flour",12,Flour; Sugar; Butter,
+High,2,Bake,Choco Volcano,4 Chocolate + 2 Butter + 1 Sugar,"discard: 1 Chocolate + 1 Sugar",12,Chocolate; Butter; Sugar,
+High,0,Bake,Caramel Crown,2 Flour + 3 Sugar + 1 Butter,"discard: 1 Sugar + 1 Flour",10,Flour; Sugar; Butter,
 ,0,Ingredient,Chocolate,,,,Chocolate,
 ,0,Ingredient,Butter,,,,Butter,
 ,0,Ingredient,Sugar,,,,Sugar,
@@ -18,7 +18,9 @@ High,0,Bake,Caramel Crown,2 Flour + 3 Sugar + 1 Butter,"discard: 1 Sugar<br>retu
 ,,Support,Resource Recycle,2 ingredients,,,,Retrieve one Ingredient from your discard pile to your hand.
 ,,Support,Efficient Setup,2 ingredients,,,,Place one additional Ingredient on the table this turn.
 ,,Disrupt,Spoil Batch,1 ingredient + 1 Chocolate,,,,Return one Ingredient from opponent’s table to their hand.
-,,Disrupt,Clogged Mixer,1 ingredient + 1 flour,,,,Opponent may only play one Utility card on their next turn.
+,,Disrupt,Burnt Batch,1 ingredient + 1 flour,,,,Discard the top 2 cards of opponent’s deck
 ,,Disrupt,Ingredient Tax,1 Sugar + 1 Butter,,,,Opponent’s next Cupcake costs one more Ingredient.
 ,,Disrupt,Seized Oven,1 Butter + 1 Chocolate,,,,Block one Factory from being used until opponent’s next turn.
 ,,Disrupt,Missing Cupcake,3 ingredients,,,,Reshuffle one Cupcake back into the deck.
+-,1,Factory,Random Factory,Unlocks when 3+ Ingredients on table,N/A,N/A,N/A,"Once per turn, generate 1 random Ingredient for this turn only."
+-,1,Factory,Conversion Factory,Unlocks when 6+ Ingredients on table (replaces Random Factory),N/A,N/A,N/A,"Once per turn, convert 1 Ingredient on your table into another Ingredient permanently."

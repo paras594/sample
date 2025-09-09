@@ -149,6 +149,78 @@ function generateCardIngredient(row) {
   `;
 }
 
+function generateCardFactory(row) {
+  return `
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <title>Cupcake Card</title>
+      <style>
+        body {
+          margin: 0;
+          padding: 0;
+          background: #f8f4f0;
+          font-family: "Segoe UI", sans-serif;
+        }
+
+        .card {
+          width: 200px;
+          height: 280px;
+          box-sizing: border-box;
+          background: #5d688a;
+          color: #fff;
+          padding: 12px;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .card-header {
+          text-align: center;
+          font-weight: bold;
+        }
+
+        .card-title {
+          font-size: 1.1em;
+          font-weight: bold;
+          text-align: center;
+          margin-top: 24px;
+          color: #fff2ef;
+        }
+
+        .card-description {
+          text-align: center;
+          font-size: 1em;
+          margin: auto;
+        }
+
+        .card-cost {
+          text-align: center;
+          font-size: 0.85em;
+          margin: auto;
+        }
+        .card-cost p {
+          margin: 4px;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="card">
+        <div class="card-header">factory</div>
+        <div class="card-title">${row["Cupcake Name"]}</div>
+        <div class="card-description">
+          ${row["Effect"]}
+        </div>
+        <div class="card-cost">
+          <p style="font-weight: bold">Condition</p>
+          <p>${row["Ingredient Cost"]}</p>
+        </div>
+      </div>
+    </body>
+  </html>
+  `;
+}
+
 function generateCardAction(row) {
   return `
   <!DOCTYPE html>
@@ -259,6 +331,8 @@ function generateCardAction(row) {
           row["Card Type"] === "Disrupt"
         ) {
           html = generateCardAction(row);
+        } else if (row["Card Type"] === "Factory") {
+          html = generateCardFactory(row);
         } else {
           console.log("Unknown card type:", row["Card Type"]);
           continue;
