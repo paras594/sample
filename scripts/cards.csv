@@ -24,3 +24,4 @@ High,0,Bake,Caramel Crown,2 Flour + 3 Sugar + 1 Butter,"discard: 1 Sugar + 1 Flo
 ,,Disrupt,Missing Cupcake,3 ingredients,,,,Reshuffle one Cupcake back into the deck.
 -,1,Factory,Random Factory,Unlocks when 3+ Ingredients on table,N/A,N/A,N/A,"Once per turn, generate 1 random Ingredient for this turn only."
 -,1,Factory,Conversion Factory,Unlocks when 6+ Ingredients on table (replaces Random Factory),N/A,N/A,N/A,"Once per turn, convert 1 Ingredient on your table into another Ingredient permanently."
+,,Out of Stock,,,,,,

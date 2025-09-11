@@ -305,6 +305,87 @@ function generateCardAction(row) {
   `;
 }
 
+function generateCardOutofStock(row) {
+  return `
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <title>Cupcake Card</title>
+      <style>
+        body {
+          margin: 0;
+          padding: 0;
+          background: #f8f4f0;
+          font-family: "Segoe UI", sans-serif;
+        }
+
+        .card {
+          width: 200px;
+          height: 280px;
+          box-sizing: border-box;
+          background: #fff;
+          padding: 12px;
+          display: flex;
+          flex-direction: column;
+        }
+
+        .card-header {
+          text-align: center;
+          font-weight: bold;
+        }
+
+        .tier {
+          font-weight: bold;
+          color: #000;
+        }
+
+        .count {
+          background: #fff;
+          padding: 2px 6px;
+          border-radius: 6px;
+        }
+
+        .card-title {
+          font-size: 1.5em;
+          font-weight: bold;
+          text-align: center;
+          margin-top: 24px;
+          color: #ed2727;
+        }
+
+        .card-description {
+          text-align: center;
+          font-size: 0.9em;
+          line-height: 1.5em;
+          color: #000;
+          margin: auto;
+        }
+
+        .card-cost {
+          text-align: center;
+          font-size: 0.9em;
+          color: #000;
+          margin: auto;
+        }
+        .card-cost p {
+          margin: 4px;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="card">
+        <div class="card-title">Out of Stock</div>
+        <div class="card-description">
+          Spend 2 Out of Stock + 1 Ingredient to lock that Ingredient type for
+          your opponent’s next turn.
+        </div>
+      </div>
+    </body>
+  </html>
+  `;
+}
+
 (async () => {
   const FOLDER = "cards";
   if (!fs.existsSync(FOLDER)) fs.mkdirSync(FOLDER);
@@ -333,6 +414,8 @@ function generateCardAction(row) {
           html = generateCardAction(row);
         } else if (row["Card Type"] === "Factory") {
           html = generateCardFactory(row);
+        } else if (row["Card Type"] === "Out of Stock") {
+          html = generateCardOutofStock(row);
         } else {
           console.log("Unknown card type:", row["Card Type"]);
           continue;
