@@ -1,0 +1,19 @@
+{
+  "name": "KO",
+  "menuBackgroundImage": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/back.png",
+  "defaultRessources": {
+    "backgrounds": [],
+    "decksUrl": ""
+  },
+  "customHelp": "",
+  "cardRotation": 45,
+  "cards": {
+    "dataUrl": "https://github.com/paras594/sample/blob/ko/tcg_cards_json.json",
+    "cardBack": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/back.png"
+  },
+  "deckBuilding": {
+    "mainFilters": [],
+    "formats": []
+  },
+  "gameplay": {}
+}
