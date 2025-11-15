@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "menuBackgroundImage": "",
+  "defaultRessources": {
+    "backgrounds": [],
+    "decksUrl": ""
+  },
+  "customHelp": "",
+  "cardRotation": 45,
+  "cards": {
+    "dataUrl": "",
+    "cardBack": ""
+  },
+  "deckBuilding": {
+    "mainFilters": [],
+    "formats": []
+  },
+  "gameplay": {}
+}

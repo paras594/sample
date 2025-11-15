@@ -1,0 +1,278 @@
+{
+  "1": {
+    "id": "1",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/heal.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/back.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Heal",
+    "type": false,
+    "cost": 0
+  },
+  "2": {
+    "id": "2",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/body-blow.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/back.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Body Blow",
+    "type": false,
+    "cost": 0
+  },
+  "3": {
+    "id": "3",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/cover-up.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/back.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cover Up",
+    "type": false,
+    "cost": 0
+  },
+  "4": {
+    "id": "4",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/critical-strike.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/back.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Critical Strike",
+    "type": false,
+    "cost": 0
+  },
+  "5": {
+    "id": "5",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/full-force.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/back.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Full Force",
+    "type": false,
+    "cost": 0
+  },
+  "6": {
+    "id": "6",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/keep-going.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/back.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Keep Going",
+    "type": false,
+    "cost": 0
+  },
+  "7": {
+    "id": "7",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/power-up.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/back.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Power Up",
+    "type": false,
+    "cost": 0
+  },
+  "8": {
+    "id": "8",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/recover.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/back.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Recover",
+    "type": false,
+    "cost": 0
+  },
+  "9": {
+    "id": "9",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/sentinal.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/back.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sentinal",
+    "type": false,
+    "cost": 0
+  },
+  "10": {
+    "id": "10",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/stagger.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/back.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Stagger",
+    "type": false,
+    "cost": 0
+  },
+  "11": {
+    "id": "11",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/suppress.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/back.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Suppress",
+    "type": false,
+    "cost": 0
+  },
+  "12": {
+    "id": "12",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/sway.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/back.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sway",
+    "type": false,
+    "cost": 0
+  }
+}
