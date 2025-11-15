@@ -12,8 +12,16 @@
     "cardBack": "https://raw.githubusercontent.com/paras594/sample/refs/heads/ko/scripts/ko-cards/back.png"
   },
   "deckBuilding": {
-    "mainFilters": [],
-    "formats": []
+    "mainFilters": [
+      "hello"
+    ],
+    "formats": [
+      {
+        "title": "world",
+        "gameplay": "",
+        "customCategories": []
+      }
+    ]
   },
   "gameplay": {}
 }
